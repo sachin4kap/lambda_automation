@@ -6,5 +6,5 @@ provider "aws" {
 
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "sachin-unique-s3-bucket-name-12345"  # Make sure this name is globally unique
-  acl    = "private"
+  aws_s3_bucket_acl    = "private"
 }
