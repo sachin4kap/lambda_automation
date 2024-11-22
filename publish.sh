@@ -5,9 +5,9 @@
 #
 
 # AWS variables
-AWS_REGION=eu-west-3
+AWS_REGION=ap-south-1
 # project name
-PROJECT_NAME=lambda-terraform-github-actions
+PROJECT_NAME=lambda_automation
 
 # the directory containing the script file
 dir="$(cd "$(dirname "$0")"; pwd)"
