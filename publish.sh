@@ -58,7 +58,7 @@ aws lambda create-alias \
 # VERSION=$(aws lambda publish-version \
     --function-name $PROJECT_NAME \
     --name $1 \
-    --function-version 1 \
+    --function-version $1 \
     --region $AWS_REGION
 
 # echo aws lambda add-permission
