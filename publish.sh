@@ -55,10 +55,10 @@ ACCOUNT_ID=$(aws sts get-caller-identity \
 
 echo aws lambda create-alias $1
 aws lambda create-alias \
-VERSION=$(aws lambda publish-version \
+# VERSION=$(aws lambda publish-version \
     --function-name $PROJECT_NAME \
     --name $1 \
-    --function-version $VERSION \
+    --function-version 1 \
     --region $AWS_REGION
 
 # echo aws lambda add-permission
