@@ -7,5 +7,5 @@ variable "region" {
 }
 
 variable "bucket" {
-  default = "sachintest1bucket2311"
+  default = "sachintest1bucket231"
 }

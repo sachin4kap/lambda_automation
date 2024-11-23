@@ -3,10 +3,10 @@ name: cd
 on:
   push:
     branches:
-      - test2  # Trigger the workflow on pushes to the main branch
+      - test3  # Trigger the workflow on pushes to the main branch
   pull_request:
     branches:
-      - test2  # Trigger the workflow on PRs to the main branch
+      - test3  # Trigger the workflow on PRs to the main branch
 
 jobs:
   terraform:
