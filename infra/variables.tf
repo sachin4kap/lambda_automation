@@ -9,5 +9,5 @@ variable "region" {
 # S3 bucket variables 
 
 variable "bucket" {     
-  default = "sachintest1bucket231"
+  default = "sachintest1bucket2319"
 }
