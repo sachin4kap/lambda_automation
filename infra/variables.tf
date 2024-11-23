@@ -6,6 +6,8 @@ variable "region" {
   default = "eu-west-3"
 }
 
-variable "bucket" {
+# S3 bucket variables 
+
+variable "bucket" {     
   default = "sachintest1bucket231"
 }
