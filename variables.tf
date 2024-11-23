@@ -9,3 +9,7 @@ variable "region" {
 variable "profile" {
   default = "default"
 }
+
+variable "bucket" {
+  default = "sachintest1bucket23112024"
+}
