@@ -6,10 +6,6 @@ variable "region" {
   default = "eu-west-3"
 }
 
-variable "profile" {
-  default = "default"
-}
-
 variable "bucket" {
   default = "sachintest1bucket23112024"
 }
