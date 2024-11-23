@@ -1,7 +1,12 @@
 # cd "$dir/infra"
-terraform init
-terraform plan
-terraform apply
+# terraform init
+# terraform plan
+# terraform apply
+
+
+terraform -chdir=infra init
+terraform -chdir=infra plan
+terraform -chdir=infra apply
 
 
 
