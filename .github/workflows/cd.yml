@@ -27,15 +27,12 @@ jobs:
         echo "AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }}" >> $GITHUB_ENV
 
     - name: Terraform Init
-      cd "$dir/infra"
       run: terraform init
 
     - name: Terraform Plan
-      cd "$dir/infra"
       run: terraform plan
 
     - name: Terraform Apply
-      cd "$dir/infra"
       run: terraform apply -auto-approve
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
