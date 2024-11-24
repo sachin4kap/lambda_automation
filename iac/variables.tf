@@ -8,6 +8,6 @@ variable "region" {
 
 # S3 bucket variables 
 
-variable "bucket" {     
+variable "bucket_name" {     
   default = "sachintest1bucket2319"
 }
